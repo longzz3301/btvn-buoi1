@@ -1,0 +1,29 @@
+// 1 false
+// 2 true
+// 3 true
+// 4
+// 5:' The quick brown fox jumps over the lazy dog.’
+// 6 undefined
+// 7 [1, 2, 3, 4, 5, 6]
+// 8 undefined 
+// 9
+// 10 a = 3, b = 12
+// 11{name: “MindX”}
+// 12 [2, 2, 6, 4, 10]
+// 13 16 
+
+THỰC HÀNH 
+câu 1
+const array ={"a","b","c","d","e","g"}
+array.reverse();
+console.log(array)
+
+caau2
+
+let arr = [1, 2, 2, 1, 4, 3, 76];
+let result = [];
+result = arr.filter(function(element){
+  return result.includes(element) ? '' : result.push(element)
+});
+
+console.log(result);
